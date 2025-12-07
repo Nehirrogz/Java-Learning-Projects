@@ -11,7 +11,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | Project Name | Description | Source Code |
 | :--- | :--- | :---: |
 | ** ATM Application** | A console-based banking simulation using `switch-case` and loops. | [View Code](./AtmProject.java) |
-| ** Number Guessing Game** | A game where the computer picks a random number (0-100) and guides the user. | [View Code](./SayiTahmin.java) |
+| ** Number Guessing Game** | A game where the computer picks a random number (0-100) and guides the user. | [View Code](./GuessNumber.java) |
 
 ---
 
