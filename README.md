@@ -10,8 +10,8 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 
 | Project Name | Description | Source Code |
 | :--- | :--- | :---: |
-| ** ATM Application** | A console-based banking simulation using `switch-case` and loops. | [View Code](./AtmProject.java) |
-| ** Number Guessing Game** | A game where the computer picks a random number (0-100) and guides the user. | [View Code](./GuessNumber.java) |
+| **1. ATM Application** | A console-based banking simulation using `switch-case` and loops. | [View Code](./AtmProject.java) |
+| **2. Number Guessing Game** | A game where the computer picks a random number (0-100) and guides the user. | [View Code](./GuessNumber.java) |
 | **3. Geometric Calculator** | A menu-driven system using switch and Math methods to perform calculations and demonstrate control flow (break/continue). | [View Code](./GeometricCalculator.java) |
 ---
 
