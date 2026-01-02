@@ -1,22 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package caesarcipher;
-// Student ID: 25242710
-// Name Surname: Nehir Oğuz
-
 import java.util.Scanner;
 
-/**
- *
- * @author nehiroguz
- */
 public class CaesarCipher {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -42,19 +27,20 @@ public class CaesarCipher {
                 System.out.println("Invalid input! Please check your task type (1-2) or key (must be > 0).");
             }
     }
-    }  
-        public static boolean validateInput(int taskType, String message, int key){
-            if(taskType!=1 && taskType!=2){
+    }
+
+    public static boolean validateInput(int taskType, String message, int key){
+         if(taskType!=1 && taskType!=2){
                 return false;
             }
             if(key<=0){
                 return false;
             }
             return true;
-        }
-        
-        public static String encrypt(String message, int key){
-            String result = "";
+    }
+
+    public static String encrypt(String message, int key){
+        String result = "";
             
             for(int i =0; i<message.length(); i++){
                 char currentChar = message.charAt(i);
@@ -62,20 +48,20 @@ public class CaesarCipher {
                 result += encryptedChar;
             }
             return result;
-        }
-        
-        public static String decrypt(String message, int key){
-            String result = "";
+    }
+    
+    public static String decrypt(String message, int key){
+        String result = "";
             for(int i =0; i< message.length(); i++){
                 char encryptedChar = message.charAt(i);
                 char decryptedChar = shiftChar(encryptedChar,-key);
                 result+= decryptedChar;
             }
             return result;
-        }
-        
-        public static char shiftChar(char ch, int x){
-            if(!Character.isLetter(ch)){
+    }
+
+    public static char shiftChar(char ch, int x){
+        if(!Character.isLetter(ch)){
                 return ch;
             }
             
@@ -88,7 +74,7 @@ public class CaesarCipher {
                 newPosition +=26;
             }
             return (char) (base+newPosition);
-        }
+    }
 }
 
     
