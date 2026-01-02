@@ -14,6 +14,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | **2. Number Guessing Game** | A game where the computer picks a random number (0-100) and guides the user. | [View Code](./GuessNumber.java) |
 | **3. Geometric Calculator** | A menu-driven system using switch and Math methods to perform calculations and demonstrate control flow (break/continue). | [View Code](./GeometricCalculator.java) |
 | 4. Password Checker | A comprehensive validation system using loops and Character methods to enforce multiple password security rules. | [View Code](./PasswordChecker.java) |
+| 5. Caesar Cipher | An encryption tool using string manipulation and modular arithmetic to shift characters. | [View Code](./CaesarCipher.java) |
 ---
 
 ## Project Details
@@ -35,8 +36,12 @@ This project simulates a menu-driven calculator, focusing on combining control s
   
 ### 4. Password Checker
 This project implements a security system that validates a user-provided password against three rules (min 8 characters, must contain at least one digit, and one letter), using a retry mechanism.
-
 * **Key Concepts:** `while` loop (retry), `for` loop (efficient character iteration), `Character.isDigit()`, `Character.isLetter()`, boolean flags, early reporting of failures.
 * **Logic:** A central `while` loop ensures the program keeps asking for a new password until all rules are met. A single, optimized `for` loop is used to check for the presence of digits and letters, ensuring the user receives feedback on every failed rule.
+
+### 5. Caesar Cipher
+This program allows users to encrypt or decrypt messages based on a numeric key.
+* **Key Concepts:** `String` methods, `char` casting, modular arithmetic (`%`), method decomposition.
+* **Logic:** Correctly handles alphabet wrapping (e.g., from 'z' to 'a') and validates user inputs before processing.
 ---
 *Developed by Nehir - 2025*
