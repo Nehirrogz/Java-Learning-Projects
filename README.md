@@ -15,6 +15,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | **3. Geometric Calculator** | A menu-driven system using switch and Math methods to perform calculations and demonstrate control flow (break/continue). | [View Code](./GeometricCalculator.java) |
 | 4. Password Checker | A comprehensive validation system using loops and Character methods to enforce multiple password security rules. | [View Code](./PasswordChecker.java) |
 | 5. Caesar Cipher | An encryption tool using string manipulation and modular arithmetic to shift characters. | [View Code](./CaesarCipher.java) |
+| 6. BattleShip Game | A tactical strategy game using 2D matrices to hunt down hidden ships within a grid. | [View Code](BattleShipGame.java) |
 ---
 
 ## Project Details
@@ -43,5 +44,15 @@ This project implements a security system that validates a user-provided passwor
 This program allows users to encrypt or decrypt messages based on a numeric key.
 * **Key Concepts:** `String` methods, `char` casting, modular arithmetic (`%`), method decomposition.
 * **Logic:** Correctly handles alphabet wrapping (e.g., from 'z' to 'a') and validates user inputs before processing.
+
+### 6. BattleShip Game 🚢
+
+This project is a terminal-based implementation of the classic "Battleship" strategy game. It challenges the user to find hidden ships on a grid using coordinates.
+
+* **Key Concepts:** `2D Arrays (Matrices)`, `Math.random()`, `Nested Loops`, `Input Validation`.
+* **Logic:**
+* **Dual Maps:** Uses two separate 2D arrays; one for the "backend" (hidden ships) and one for the "frontend" (player's view with `~`, `X`, `O`).
+* **Random Placement:** Ships are placed randomly at the start using mathematical logic to ensure unique coordinates.
+* **Game Loop:** The game continues until all ships are sunk, providing real-time feedback on "Hits" and "Misses".
 ---
 *Developed by Nehir - 2025*
