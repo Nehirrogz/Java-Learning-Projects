@@ -107,7 +107,7 @@ public class HotelReservation {
     }
     
     public static void firstFree(boolean[][]hotel, int floor, int startRoom, int endRoom){
-        int f = floor -1; //java 0 dan başladığı için yazdığımı anlasın diye
+        int f = floor -1; 
         for(int r = startRoom-1; r<=endRoom-1; r++){
             if(!hotel[f][r]){
                 System.out.println("First free room is: Floor " +floor+ " room "+(r+1)); 
