@@ -16,6 +16,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | 4. Password Checker | A comprehensive validation system using loops and Character methods to enforce multiple password security rules. | [View Code](./PasswordChecker.java) |
 | 5. Caesar Cipher | An encryption tool using string manipulation and modular arithmetic to shift characters. | [View Code](./CaesarCipher.java) |
 | 6. BattleShip Game | A tactical strategy game using 2D matrices to hunt down hidden ships within a grid. | [View Code](BattleShipGame.java) |
+| 7. Hotel Reservation System | A management system using 2D matrices to track and book hotel rooms across multiple floors. | [View Code](./HotelReservation.java) |
 ---
 
 ## Project Details
@@ -54,5 +55,16 @@ This project is a terminal-based implementation of the classic "Battleship" stra
 * **Dual Maps:** Uses two separate 2D arrays; one for the "backend" (hidden ships) and one for the "frontend" (player's view with `~`, `X`, `O`).
 * **Random Placement:** Ships are placed randomly at the start using mathematical logic to ensure unique coordinates.
 * **Game Loop:** The game continues until all ships are sunk, providing real-time feedback on "Hits" and "Misses".
+
+* ### 7. Hotel Reservation System
+
+This project simulates a real-world hotel management system using multi-dimensional arrays.
+
+* **Key Concepts:** `Scanner`, `2D Arrays` (Matrices), `do-while` loops, `Nested for` loops.
+* **Logic:** 
+    * **Matrix Mapping:** Maps user-friendly inputs (Floor 1, Room 1) to zero-based computer indices (Index 0,0) to prevent coordinate mismatches.
+    * **Availability Tracking:** Uses a `boolean` matrix where `false` represents an available room **[O]** and `true` represents an occupied room **[X]**.
+    * **Boundary Protection:** Implements `(length - 2)` limiters in search algorithms to prevent `ArrayIndexOutOfBounds` errors when checking for three consecutive empty rooms.
+    * **Efficient Searching:** Utilizes `return` statements to immediately stop search processes once a suitable room or block is found, optimizing performance.
 ---
 *Developed by Nehir - 2025*
