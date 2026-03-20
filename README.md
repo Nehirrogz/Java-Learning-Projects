@@ -17,6 +17,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | 5. Caesar Cipher | An encryption tool using string manipulation and modular arithmetic to shift characters. | [View Code](./CaesarCipher.java) |
 | 6. BattleShip Game | A tactical strategy game using 2D matrices to hunt down hidden ships within a grid. | [View Code](BattleShipGame.java) |
 | 7. Hotel Reservation System | A management system using 2D matrices to track and book hotel rooms across multiple floors. | [View Code](./HotelReservation.java) |
+| 8. Security Terminal & Logging | A security simulation featuring brute-force protection, 2D matrix logs, and time-stamped incident reporting. | [View Code](./JavaApplication20.java) |
 ---
 
 ## Project Details
@@ -66,5 +67,13 @@ This project simulates a real-world hotel management system using multi-dimensio
     * **Availability Tracking:** Uses a `boolean` matrix where `false` represents an available room **[O]** and `true` represents an occupied room **[X]**.
     * **Boundary Protection:** Implements `(length - 2)` limiters in search algorithms to prevent `ArrayIndexOutOfBounds` errors when checking for three consecutive empty rooms.
     * **Efficient Searching:** Utilizes `return` statements to immediately stop search processes once a suitable room or block is found, optimizing performance.
+ 
+* ### 8. Security Terminal & Logging System
+
+This project simulates a real-world security gate. It focuses on how systems track unauthorized access attempts using structured data.
+
+*   **Key Concepts:** `2D Arrays` (Matrices), `java.time.LocalTime`, `Method Parameters`, `Switch-Case`.
+*   **Security Features:** Automatically records failed attempts with a timestamp, username, and simulated IP address.
+*   **Modular Code:** Includes a dedicated printing method to render logs in a clean, professional table format using escape sequences (`\t`).
 ---
 *Developed by Nehir - 2025*
