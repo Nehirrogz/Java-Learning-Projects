@@ -51,9 +51,7 @@ public class JavaApplication20 {
             System.out.println("\n--- SECURITY LOG REPORT ---");
             for (int i = 0; i < attempt; i++) {
                 System.out.println("Log #" + (i + 1) + ": " + logs[i]);
-        }
-        
-    
+            }   
 }
         
 if(isGranted){
@@ -81,8 +79,7 @@ if(isGranted){
                 break;
                 
             default:
-                System.out.println("Invalid selection!");    
-                
+                System.out.println("Invalid selection!");                  
     }
 }
     }
