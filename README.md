@@ -17,7 +17,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | 5. Caesar Cipher | An encryption tool using string manipulation and modular arithmetic to shift characters. | [View Code](./CaesarCipher.java) |
 | 6. BattleShip Game | A tactical strategy game using 2D matrices to hunt down hidden ships within a grid. | [View Code](BattleShipGame.java) |
 | 7. Hotel Reservation System | A management system using 2D matrices to track and book hotel rooms across multiple floors. | [View Code](./HotelReservation.java) |
-| 8. Security Terminal & Logging | A security simulation featuring brute-force protection, 2D matrix logs, and time-stamped incident reporting. | [View Code](./JavaApplication20.java) |
+| 8. Security Terminal & Logging | A security simulation featuring brute-force protection, 2D matrix logs, and time-stamped incident reporting. | [View Code](./SecurityTerminal.java) |
 ---
 
 ## Project Details
