@@ -18,7 +18,7 @@ Here is the list of my practice projects. Click on the **"View Code"** link to s
 | 6. BattleShip Game | A tactical strategy game using 2D matrices to hunt down hidden ships within a grid. | [View Code](BattleShipGame.java) |
 | 7. Hotel Reservation System | A management system using 2D matrices to track and book hotel rooms across multiple floors. | [View Code](./HotelReservation.java) |
 | 8. Security Terminal & Logging | A security simulation featuring brute-force protection, 2D matrix logs, and time-stamped incident reporting. | [View Code](./SecurityTerminal.java) |
-| 9. Popular Name Statistics | An interactive baby name popularity analyzer that processes CSV data, updates multi-class arrays, and delivers ranked statistics. | [View Code](./BabyNameAnalyzer.java) |
+| 9. Popular Name Statistics | An interactive baby name popularity analyzer that processes CSV data, updates multi-class arrays, and delivers ranked statistics. | [Main Code](./BabyNameAnalyzer.java) / [Class Code](./PopularName.java) |
 ---
 
 ## Project Details
