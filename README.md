@@ -84,16 +84,16 @@ This project processes baby name popularity data from CSV files and provides sea
 
 * **Key Concepts:** `Scanner`, `File` operations, Array of Objects, `bubbleSort`, `linearSearch`, Exception Handling.
 * **Logic:** Reads a CSV file twice to dynamically allocate arrays, parses data into custom `PopularName` objects, sorts them alphabetically, and handles interactive name searches with percentage calculation and input validation.
----
 
 ### 10. Geographic Place Database
 
 This project implements a modular database application to store, search, and calculate distances between different geographic locations.
 
-* **Key Concepts:** OOP Inheritance (`extends`)[cite: 4, 9], Interface implementation (`implements`), Polymorphism (`instanceof`)[cite: 5], Downcasting[cite: 5], Array Data Storage[cite: 5].
+* **Key Concepts:** OOP Inheritance (`extends`), Interface implementation (`implements`), Polymorphism (`instanceof`), Downcasting, Array Data Storage.
 * **Logic:** 
-    * Structures data hierarchy using a base `Place` class, a `LocatedPlace` subclass for coordinates[cite: 4], and a `PopulatedPlace` subclass for population metrics[cite: 9].
-    * Features custom lookup and listing algorithms by prefix matching and unique input validation to prevent duplicate zip codes[cite: 5].
-    * Implements a straight-line distance algorithm by dynamically checking object types via polymorphism and computing geometric distances[cite: 5].
-    * Provides a console-driven user interface framework (`PDConsoleIO`) and a standard validation test suite (`Test`)[cite: 3].
+    * Structures data hierarchy using a base `Place` class, a `LocatedPlace` subclass for coordinates, and a `PopulatedPlace` subclass for population metrics.
+    * Features custom lookup and listing algorithms by prefix matching and unique input validation to prevent duplicate zip codes.
+    * Implements a straight-line distance algorithm by dynamically checking object types via polymorphism and computing geometric distances.
+    * Provides a console-driven user interface framework (`PDConsoleIO`) and a standard validation test suite (`Test`).
+  ---
 *Developed by Nehir - 2025*
