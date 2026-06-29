@@ -10,7 +10,7 @@ import java.io.*;
  *
  * @author nehiroguz
  */
-public class Assignment3 {
+public class BabyNameAnalyzer {
 
     /**
      * @param args the command line arguments
